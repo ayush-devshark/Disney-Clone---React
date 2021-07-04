@@ -4,3 +4,4 @@
 
 -   React
 -   JavaScript
+-   React - Slick
