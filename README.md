@@ -5,4 +5,4 @@
 -   React, Redux
 -   JavaScript
 -   React - Slick
--   Firebase
+-   Firebase - auth, database
