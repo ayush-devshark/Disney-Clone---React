@@ -2,6 +2,7 @@
 
 ## Stack
 
--   React
+-   React, Redux
 -   JavaScript
 -   React - Slick
+-   Firebase
