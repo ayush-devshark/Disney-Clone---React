@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
-import { Switch, BrowserRouter, Link, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Details from './components/Details';
+import Login from './components/Login';
 
 function App() {
     return (
@@ -15,6 +16,9 @@ function App() {
                 </Route>
                 <Route path='/home'>
                     <Home />
+                </Route>
+                <Route path='/login'>
+                    <Login />
                 </Route>
             </Switch>
         </div>
