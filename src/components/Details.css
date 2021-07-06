@@ -1,0 +1,124 @@
+.detailsContainer {
+    min-height: calc(100vh -70px);
+    padding: 0 calc(3.5vw + 5px);
+    position: relative;
+}
+
+.detailsbackimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+.detailsbackimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgTitle {
+    height: 30vh;
+    min-height: 170px;
+    width: 35vw;
+    min-width: 200px;
+    margin-top: 60px;
+}
+
+.imgTitle img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.playbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+    padding: 0 24px;
+    background-color: rgb(249, 249, 249);
+    font-size: 15px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+
+.playbtn:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+.trailerbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+    padding: 0 24px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    height: 56px;
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    border-radius: 4px;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.trailerbtn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.addbtn {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.addbtn span {
+    font-size: 30px;
+    color: white;
+}
+
+.groupwatchbtn {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.subtitle {
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+}
+
+.description {
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 1.4;
+    max-width: 760px;
+}
